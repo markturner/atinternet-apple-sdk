@@ -31,6 +31,7 @@
 //
 
 import Foundation
+import ATInternetTrackerObjc
 
 #if canImport(UIKit)
 import UIKit

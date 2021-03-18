@@ -31,6 +31,7 @@ SOFTWARE.
 //
 
 import Foundation
+import ATInternetTrackerObjc
 
 class Dispatcher: NSObject {
     

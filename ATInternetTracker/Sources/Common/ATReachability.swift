@@ -26,7 +26,6 @@
  */
 #if canImport(SystemConfiguration)
 import SystemConfiguration
-#endif
 import Foundation
 
 public let ReachabilityChangedNotification = "ReachabilityChangedNotification"
@@ -372,3 +371,4 @@ public class ATReachability: NSObject {
         whenUnreachable = nil
     }
 }
+#endif

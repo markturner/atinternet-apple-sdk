@@ -31,6 +31,7 @@ SOFTWARE.
 //
 
 import Foundation
+import ATInternetTrackerObjc
 
 
 /// Business object type for screen tracking. Used only for specific case.

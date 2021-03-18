@@ -27,9 +27,8 @@
 //  Tracker
 //
 import Foundation
-#if canImport(UIKit)
+#if !os(watchOS)
 import UIKit
-#endif
 
 /// Background task
 public class BackgroundTask: NSObject {
@@ -138,3 +137,4 @@ public class BackgroundTask: NSObject {
         }
     }
 }
+#endif
